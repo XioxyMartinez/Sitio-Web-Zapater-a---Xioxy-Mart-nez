@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minifeet - Formulario</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="media/logo.PNG">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Minifeet</p>
+            <nav>
+                <a href="index.html#somos-proya">Quiénes Somos</a>
+                <a href="index.html#nuestros-programas">Nuestros Modelos</a>
+                <a href="index.html#final">Ubicación</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="formulario">
+        <div class="container">
+            <h2>Formulario de contacto</h2>
+            <form action="mailto:contacto@minifeet.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Minifeet 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
